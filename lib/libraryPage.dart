@@ -172,7 +172,6 @@ class LibraryPage extends StatelessWidget {
     );
   }
 
-  // Helper method to create a feature row
   static Widget buildFeatureRow(String feature) {
     return SizedBox(
       width: 202,
@@ -281,9 +280,10 @@ class LibraryPage extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
-                    color: Colors.amber,
+                    //color: Colors.amber,
                     height: 50,
                     width: MediaQuery.of(context).size.width,
+                    child: Image.asset('assets/Content.png'),
                   ),
                   SizedBox(
                     height: 90,

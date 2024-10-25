@@ -13,7 +13,12 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   // List of pages
-  final List<Widget> _pages = [HomePage(), LibraryPage(), Create(),];
+  final List<Widget> _pages = [
+    HomePage(),
+    LibraryPage(),
+    Create(),
+    AlarmPage()
+  ];
 
   // Method to handle navigation
   void _onItemTapped(int index) {
